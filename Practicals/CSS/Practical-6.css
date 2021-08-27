@@ -17,6 +17,7 @@ h4{
 }
 .container {
   display: inline-flex;
+  justify-content: center;
 }
 .box {
   width: 300px;
