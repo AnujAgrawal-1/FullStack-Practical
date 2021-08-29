@@ -17,6 +17,7 @@ h4{
 }
 .container {
   display: inline-flex;
+  margin-left: 40px;
 }
 .box {
   width: 280px;
@@ -34,9 +35,7 @@ h4{
 .box p {
   overflow: hidden;
 }
-#box1{
-  margin-left: 40px;
-}
+
 #readme {
   text-align: center;
   margin: 7px;
