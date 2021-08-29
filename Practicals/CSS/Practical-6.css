@@ -17,10 +17,9 @@ h4{
 }
 .container {
   display: inline-flex;
-  justify-content: center;
 }
 .box {
-  width: 300px;
+  width: 280px;
   height: 360px;
   margin: 10px;
   padding: 10px;
@@ -35,13 +34,16 @@ h4{
 .box p {
   overflow: hidden;
 }
+#box1{
+  margin-left: 40px;
+}
 #readme {
   text-align: center;
-  margin: 10px;
+  margin: 7px;
 }
 a {
   text-decoration: none;
-  padding: 5px 90px;
+  padding: 5px 80px;
   background-color: crimson;
   border-radius: 10px;
   color: rgb(253, 250, 250);
