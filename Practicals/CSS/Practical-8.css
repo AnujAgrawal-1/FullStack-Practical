@@ -126,6 +126,8 @@ h4 {
   height: 400px;
   display: inline-flex;
   margin: 10px;
+  justify-content: center;
+  align-items: center;
 }
 .box {
   width: 280px;
