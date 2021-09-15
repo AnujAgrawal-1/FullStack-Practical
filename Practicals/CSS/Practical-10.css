@@ -1,0 +1,108 @@
+*{margin: 0;padding: 0;box-sizing: border-box;
+font-family:arial;}
+header{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(17, 32, 49);
+    color: rgb(250, 245, 245);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+header img{
+    height: 70px;
+    width: 70px;
+}
+main{
+    width: 100%;
+    padding: 20px;
+    float:right;
+    transition: 0.9s;
+}
+main img{
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin:auto;
+
+}
+main p{
+    text-align: justify;
+}
+aside{
+    width: 20%;
+    height: 100%;
+    position:fixed;
+    top:70px;
+    background-color: rgb(17, 32, 49);
+    left: -100%;
+    transition: 0.9s;
+}
+aside ul{
+    list-style: none;
+}
+aside li{
+    border-bottom: 2px solid rgb(248, 245, 245);
+}
+aside ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px 25px;
+    transition: 0.4s;
+}
+aside ul li a i{
+   margin-left: 20px;
+}
+aside ul li a:hover{
+    border-left: 5px solid white;
+}
+.social-link{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:30px ;
+    border-bottom: 2px solid rgb(255,255,255,0.1);
+    border-top: 2px solid rgb(255,255,255,0.1);
+
+    padding: 15px;
+}
+i{
+    color: white;
+    font-size: 30px;
+}
+.show-btn, .hide-btn{
+    font-size: 35px;
+    color:white;
+    position: fixed;
+    top:20px;
+    left:50px;
+
+}
+.hide-btn{
+    opacity: 0;
+}
+#chk:checked ~ .sidebar{
+    left:0;
+}
+#chk:checked ~ .hide-btn{
+    opacity:1;
+}
+#chk:checked ~ .show-btn{
+    opacity: 0;
+}
+#chk:checked ~ main{
+    width: 80%;
+}
+@media(max-width:780px){
+    aside{
+        width: 100%;
+        text-align: center;
+    }
+    header h1{
+        display:none;
+    }
+}
