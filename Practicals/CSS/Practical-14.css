@@ -1,0 +1,31 @@
+body{
+    background-color:gray;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    text-align: center;
+    
+}
+h1{
+    color:#fff;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.prac{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 200px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    background-color:yellow;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+#value{
+    font-size: 50px;
+    color: yellow;
+}
