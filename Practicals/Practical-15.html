@@ -1,64 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="/Practicals/CSS/Practical-15.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/Practical-15.css">
     <title>Practical-15</title>
+   
 </head>
-
 <body>
-    
-    <div class="card">
-        <div>
-            <h1>Create Account</h1>
-        </div>
-        <form action="">
-            <div>
-                <label for="username">Username</label>
-                <br>
-                <input type="text" placeholder="Enter username" id="username">
-                <i class="fa fa-exclamation-circle"></i>
-                <i class="fa fa-check"></i>
+    <div class="container">
+        <h2>create account</h2>
+        <form>
+            <div class="form-control">
+                <label title="only lower case alphabate">Username<input type="text" name="userName" placeholder="Enter User Name" id='username'><label>
+                <i class="fa fa-check-circle check"></i>
+                <i class="fa fa-exclamation-circle exclamation"></i>
+                <small>Lorem ipsum dolor sit amet.</small>
             </div>
-            <br>
-        
-            <div>
-                <label for="email">Email</label>
-                <br>
-                <input type="text" placeholder="Enter Email" id="email">
-                <i class="fa fa-exclamation-circle"></i>
-                <i class="fa fa-check"></i>
+            <div class="form-control">
+                <label  title="must have '@' followed by ''.com'">Email<input type="text" name="email" placeholder="Enter Email" id='email'></label>
+                <i class="fa fa-check-circle check"></i>
+                <i class="fa fa-exclamation-circle exclamation"></i>
+                <small>Lorem ipsum dolor sit amet.</small>
             </div>
-            <br>
-        
-            <div>
-                <label for="p1">Password</label>
-                <br>
-                <input type="text" placeholder="Enter password" id="p1">
-                <i class="fa fa-exclamation-circle"></i>
-                <i class="fa fa-check"></i>
+            <div class="form-control">
+                <label  title="all string are accepted except blank">Password<input type="password" name="password" placeholder="Enter Password" id=password1></label>
+                <i class="fa fa-check-circle check"></i>
+                <i class="fa fa-exclamation-circle exclamation"></i>
+                <small>Lorem ipsum dolor sit amet.</small>
             </div>
-            <br>
-           
-            <div>
-                <label for="p2">Password Again</label>
-                <br>
-                <input type="text" placeholder="Enter password again" id="p2">
-                <i class="fa fa-exclamation-circle"></i>
-                <i class="fa fa-check"></i>
+            <div class="form-control">
+                <label>Confirm Password<input type="password" name="confirm-password" placeholder="Confirm Your Password" id='password2'></label>
+                <i class="fa fa-check-circle check"></i>
+                <i class="fa fa-exclamation-circle exclamation"></i>
+                <small>Lorem ipsum dolor sit amet.</small>
             </div>
-            <br>
-            <div class="submit">
-                <a href="#">Submit</a>
-            </div>
-
+            <button type="submit">Submit</button>
         </form>
     </div>
-
+    <script src="./javaScript/Practical-15.js"></script>
 </body>
-
 </html>
